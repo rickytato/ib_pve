@@ -1,6 +1,6 @@
 cd /tmp
-apt-get install pve-headers-$(uname -v | awk '{print $4}')-pve
 apt-get update
+apt-get install pve-headers-$(uname -v | awk '{print $4}')-pve
 apt-get -y install python-libxml2 make dkms
 wget http://content.mellanox.com/ofed/MLNX_OFED-4.1-1.0.2.0/MLNX_OFED_LINUX-4.1-1.0.2.0-debian8.7-x86_64.iso
 mkdir iso
